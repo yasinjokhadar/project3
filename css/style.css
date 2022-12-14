@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@300;400;600;700&family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+body {
+    background-color: #eee;
+}
+
+ul {
+    background-color:rgb(66, 64, 64);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left:10px;
+}
+
+ul li:hover {
+    background-color:red;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-img {
+    height:300px;
+    background-image: url('../images/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.content {
+    width:80%;
+    margin: auto;
+    text-align:center;
+}
+
+.content h1 {
+    color: red;
+}
+.content p {
+    font-size:20px;
+}
+
+.content img {
+    width:300px;
+}
+
+.container {
+    width:80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.container h2 {
+    margin: 20px auto;
+    font-size: 30px;
+    color: red;
+}
+
+.features {
+    display: flex;
+}
+
+.features .feature {
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.features .feature:hover {
+    box-shadow: 3px 3px 10px rgb(145, 145, 232);
+    transform: translateX(3px);
+    background-color: rgb(247, 242, 242);
+}
+
+.features i {
+    padding-top: 15px;
+    font-size: 30px;
+    background-color: red;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+
+}
+.features h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.contact-form {
+    
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+.input-form {
+    margin-bottom: 20px;
+}
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(245, 141, 141);
+    color: white;
+    width: 220px;
+    height: 50px;
+    border:1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
